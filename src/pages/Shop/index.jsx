@@ -1,8 +1,13 @@
+import AsideMenu from "./components/AsideMenu";
+import Main from "./components/Main";
 
 const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <div className="w-full flex h-screen">
+      <AsideMenu />
+      <Main />
+    </div>
+  );
+};
 
-export default Shop
+export default Shop;
