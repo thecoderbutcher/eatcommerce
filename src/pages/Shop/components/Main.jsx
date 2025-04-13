@@ -13,7 +13,7 @@ const Main = () => {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 px-12 py-8 text-textColor">
+        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-12 py-8 text-textColor">
           {mostPopular.deals.map(
             ({ title, price, condition, img, calification }) => (
               <div key={title} className="flex flex-col w-full items-center ">
